@@ -13,20 +13,28 @@
 .column {
   float: left;
   flex: 33.33%;
-  padding: 100px;
+  padding: 0px;
 }
 
 .container.column {
   background-color: rgba(255, 255, 255, 0.356);
-  margin: 3rem 5rem 4rem 5rem;
+  margin: 3rem 3rem 3rem 3rem;
   border-radius: 1rem;
   padding: 2rem 1rem 2rem 1rem;
   box-shadow: 10px 10px 20px 5px black;
   display: block;
   float: left;
   flex: 33.33%;
-  padding: 100px;
 }
+
+.img1{      
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;         
+} 
+
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
